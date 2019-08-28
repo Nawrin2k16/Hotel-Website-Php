@@ -1,0 +1,189 @@
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    color: #017572;
+ }
+ 
+ .form-signin .form-signin-heading,
+ .form-signin .checkbox {
+    margin-bottom: 10px;
+ }
+ 
+ .form-signin .checkbox {
+    font-weight: normal;
+ }
+ 
+ .form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+ }
+ 
+ .form-signin .form-control:focus {
+    z-index: 2;
+ }
+ 
+ .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-color:#017572;
+ }
+ 
+ .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-color:#017572;
+ }
+ h1,h2{
+    text-align: center;
+    color: #017372;
+ }
+div.w3-padding{
+height: 340px;
+width: 800px;
+margin: auto ;
+border: 2px solid red;
+text-align: center;
+}
+p.dotted {border-style: double;
+border-bottom: double;
+font-style: oblique;
+font: italic bold 12px/30px Georgia, serif;
+text-align: center;
+text-shadow: 2px 2px rgb(124, 104, 163);
+font-size: 150%;
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 80px;
+background-color: rgb(192, 206, 221);
+}
+div.w3-display-top {
+font-weight:bold;
+color:rgb(215, 220, 223);
+
+height: 100px;
+width: 250px;
+margin: 0 auto;
+animation-name: stretch;
+animation-duration: 5s; 
+animation-timing-function: ease-out; 
+animation-delay: 0;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+animation-fill-mode: none;
+animation-play-state: running;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes stretch {
+0% {
+transform: scale(.7);
+border-radius: 100%;
+}
+100% {
+transform: scale(1.2);
+
+}
+}
+
+/* Standard syntax */
+@keyframes stretch {
+0% {
+transform: scale(.7);
+border-radius: 100%;
+}
+100% {
+transform: scale(1.2);
+}
+}
+
+div.w3-panel {
+background-color: red;
+-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes example {
+0%   {background-color:rgb(204, 87, 87); }
+25%  {background-color:rgb(250, 25, 25); }
+50%  {background-color:rgb(240, 88, 50); }
+75%  {background-color:rgb(233, 69, 40); }
+100% {background-color:red;}
+}
+
+/* Standard syntax */
+@keyframes example {
+0%   {background-color:rgb(204, 87, 87); }
+25%  {background-color:rgb(250, 25, 25); }
+50%  {background-color:rgb(240, 88, 50); }
+75%  {background-color:rgb(233, 69, 40); }
+100% {background-color:red;}
+}
+
+body, html {
+height: 100%;
+font-family: "Inconsolata", sans-serif; 
+}
+
+table {
+margin: 2pc;
+border-collapse: collapse;
+text-align: left;
+width: 100%;
+font-size: 1.3pc;
+
+}
+
+.pagination {
+display: inline-block;
+}
+
+.pagination a {
+color: black;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+transition: background-color .3s;
+border: 1px solid #ddd;
+}
+
+.pagination a.active {
+background-color: #4CAF50;
+color: white;
+border: 1px solid #4CAF50;
+}
+
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+img:hover {
+border: 1px solid #777;
+}
+
+.bgimg {
+background-position: center;
+background-size: cover;
+background-image: url("Bangladesh.jpg");
+min-height: 75%;
+-webkit-transition: width 7s; /* For Safari 3.1 to 6.0 */
+transition: width 2s;
+-webkit-animation: myfirst 5s linear 2s infinite alternate; 
+animation: myfirst 5s linear 2s infinite alternate;
+}
+.bgimg:hover{
+background-image: url("index.jpg");
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
